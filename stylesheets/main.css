@@ -1,37 +1,50 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="stylesheets/main.css">
-    <title>Schmuck und Kunst</title>
-  </head>
-  <body>
+body {
+  font-family: TrajanPro-Regular, 'Lucida Grande', sans-serif;
+  font-size: 18px;
+  width: 900px;
+  margin: 0 auto 0 auto;
+}
 
-    <div class="yellow-header">
-      <h1 class="company">Schmuck und Kunst</h1>
-      <ul class="nav">
-        <li><a href="index.html">Schmuck und Kunst</a></li>
-        <li><a href="offer.html">Ich biete</a></li>
-        <li><a href="about.html">&Uuml;ber mich</a></li>
-        <li><a href="jewelry.html">Schmuck</a></li>
-        <li><a href="paintings.html">Gem&auml;lde</a></li>
-      </ul>
-    </div>
+h1, h2, h3 {
+  color: #0B615E;
+}
 
-    <div class="name-header">
-      <h1>Pia Stuhlfelner</h1>
-      <h3>Goldschmiedin</h3>
-      <h1 class="company">Schmuck und Kunst</h1>
-    </div>
+.yellow-header {
+  background-image: url("../images/header.jpg");
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
 
-    <h1>Adresse</h1>
-    <div class="address">
-      <p>Kaulbachstr. 83</p>
-      <p>80802 München</p>
-    </div>
-    <div class="address">
-      <p>Tel. 089 Kaulbachstr. 83</p>
-      <p>Fax 80802 München</p>
-      <p>Mobile :w!Fax 80802 München</p>
-    </div>
-  </body>
-</html>
+.yellow-header h1.company {
+  margin-top: 0px;
+  padding: 15px 0 0 15px;
+}
+
+.nav {
+  padding: 15px 0 15px 15px;
+}
+
+.nav li {
+  display: inline;
+  padding: 7px 7px 7px 7px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 2px solid #FFFFFF;
+}
+
+.nav li:hover {
+  background-color: #0B615E;
+}
+
+.nav li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: #FFFFFF;
+}
+
+
