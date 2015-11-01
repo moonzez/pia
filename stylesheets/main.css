@@ -72,6 +72,7 @@ section.main {
 
 .content-box {
   padding-left: 15px;
+  padding-bottom: 20px;
 }
 
 .address p:first-child {
@@ -85,8 +86,29 @@ section.main {
 
 .mail {
   color: #088A85;
+  margin-bottom: 0px;
 }
 
 .offer {
   list-style-image: url("../images/juwelry/ring_small.jpg");
+}
+
+.without-mb {
+  margin-bottom: 0px;
+}
+
+.img-text {
+}
+
+.img-text img {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+}
+
+.img-text p {
+  display: inline;
+  margin: 0px;
 }
