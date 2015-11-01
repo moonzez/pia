@@ -71,8 +71,7 @@ section.main {
 }
 
 .content-box {
-  padding-left: 15px;
-  padding-bottom: 20px;
+  padding: 0 15px 20px 15px;
 }
 
 .address p:first-child {
@@ -111,4 +110,21 @@ section.main {
 .img-text p {
   display: inline;
   margin: 0px;
+}
+
+.item {
+  border-bottom: 1px solid  #088A85;
+}
+
+.item img {
+  width: auto;
+  height: 150px;
+}
+
+.painting {
+  padding-bottom: 40px;
+}
+.painting img {
+  width: 870px;
+  height: auto;
 }
