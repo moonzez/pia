@@ -70,7 +70,7 @@ section.main {
   margin-top: 0px;
 }
 
-.address-box {
+.content-box {
   padding-left: 15px;
 }
 
@@ -83,6 +83,10 @@ section.main {
   margin-top: 0px;
 }
 
-.address-box .mail {
-color: #088A85;
+.mail {
+  color: #088A85;
+}
+
+.offer {
+  list-style-image: url("../images/juwelry/ring_small.jpg");
 }
