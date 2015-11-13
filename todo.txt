@@ -1,1 +1,2 @@
 - add favicon
+- make header clickable
